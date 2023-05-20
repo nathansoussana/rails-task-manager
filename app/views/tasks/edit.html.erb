@@ -1,4 +1,4 @@
-<h1>New task</h1>
+<h1>Edit task</h1>
 
   <%= simple_form_for(@task) do |f| %>
     <%= f.input :title %>
@@ -6,4 +6,3 @@
     <%= f.submit class: "btn btn-primary" %>
     <%= link_to "Back",  tasks_path, class: "btn btn-secondary" %>
   <% end %>
-

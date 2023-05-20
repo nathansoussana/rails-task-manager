@@ -1,3 +1,4 @@
 <h1><%= @task.title %></h1>
 <p><%= @task.details %></p>
-<%= link_to "Back",  tasks_path %>
+<%= link_to "Update task",  edit_task_path, class: "btn btn-primary" %>
+<%= link_to "All tasks",  tasks_path, class: "btn btn-secondary" %>
